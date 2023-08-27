@@ -1,6 +1,12 @@
 # Correction-Macro
 수강신청 정정을 편하게 하기 위한 파이썬 매크로 프로그램
 
+```python
+pip install pyautogui
+pip install keyboard
+```
+
+
 ![다운로드](https://github.com/y2hscmtk/Correction-Macro/assets/109474668/4734c188-c50c-423d-a49c-89fcd8e0ecac)
 
 r키를 눌러서 현재 위치를 기록한다.(정정하고 싶은 과목의 신청 버튼위에 마우스를 두면 된다.)</br>
