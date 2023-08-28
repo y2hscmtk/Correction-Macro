@@ -67,7 +67,9 @@ class CoMacro(tk.Tk):
             y = self.y_entry.get()
             if x and y:
                 pyautogui.click(int(x), int(y))
-            time.sleep(0.7)
+                pyautogui.press('enter')
+                time.sleep(0.7)
+                pyautogui.press('enter')
 
     def stop_clicking(self):
         self.clicking = False
